@@ -1,0 +1,277 @@
+
+.commentField {
+  width: 100%;
+  height: 200px;
+  resize: none;
+  margin: 20px;
+}
+
+.commentDiv {
+	position: relative;
+	padding-right: 20px;
+}
+
+.commentDate {
+	font-size: 12px;
+}
+
+.commentDeleteDiv {
+	visibility: hidden;
+	display: inline-block;
+}
+
+.commentDeleteDiv a {
+	cursor: pointer;
+	color: red;
+	font-size: 20px;
+}
+
+.commentDiv:hover .commentDeleteDiv {
+	visibility: visible;
+}
+
+.badge {
+  padding: 1px 9px 2px;
+  font-size: 12.025px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: #999999;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+.badge:hover {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.badge-error {
+  background-color: #b94a48;
+}
+.badge-error:hover {
+  background-color: #953b39;
+}
+.badge-warning {
+  background-color: #f89406;
+}
+.badge-warning:hover {
+  background-color: #c67605;
+}
+.badge-success {
+  background-color: #468847;
+}
+.badge-success:hover {
+  background-color: #356635;
+}
+.badge-info {
+  background-color: #3a87ad;
+}
+.badge-info:hover {
+  background-color: #2d6987;
+}
+.badge-inverse {
+  background-color: #333333;
+}
+.badge-inverse:hover {
+  background-color: #1a1a1a;
+}
+
+
+.inline-product-thumbnail {
+	position: relative; 
+	bord1er: 1px solid #aaa;
+	padding: 3px;
+	margin: 10px;
+	width: 240px; 
+	height: 240px; 
+	display: inline-block; 
+	text-align:center;
+}
+
+.inline-product-thumbnail .caption p {
+	width: 100%;
+	display:inline;
+}
+
+.inline-product-thumbnail .imgHolder {
+	position: relative;	
+	width: 232px; 
+	height: 200px; 
+	border: 1px solid #aaa;
+	overflow: hidden;
+}
+
+.inline-product-thumbnail .imgHolder img {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 100%;
+	min-height: 100%;
+}
+
+.inline-product-thumbnail .imgHolder img:not([src]){ 
+    visibility: hidden;
+}
+
+.padding-top-100 {
+	padding-top: 100px;
+}
+
+.list-group-striped li:nth-of-type(even) {
+	background-color: #fff;
+}
+
+.list-group-striped li:nth-of-type(even) {
+	background-color: #eaeaea;
+}
+
+.list-group-striped {
+	background-color: #fff;
+}
+
+
+.table-bold-first-td tr td:first-child {
+	font-weight: bold;
+}
+
+.color-default {
+	color: none;
+}
+
+.color-black {
+	color: #000;
+}
+
+.color-red {
+	color: #f00;
+}
+
+.color-blue {
+	c1olor: #00f !important;
+}
+
+.color-white {
+	color: #fff;
+}
+
+
+.color-focusable {
+	opacity: 0.6;
+}
+
+.color-focusable:hover {
+	opacity: 1;
+}
+
+.font-weight-bold {
+	font-weight: bold;
+}
+
+.blue-text-shadow {
+	text-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+.font-weight-normal {
+	font-weight: 400;
+}
+
+.font-style-italic {
+	font-style: italic;
+}	
+
+.font-style-underline {
+	text-decoration: underline;
+}	
+
+.font-style-normal {
+	font-style: normal
+}
+	
+.btn-expand {
+	padding: 5px 10px;
+	margin: 0 20px;
+}
+
+.users.form input {
+	margin: 0 0 20px 0;
+	display: block;	
+}
+
+.users.form input[type=text] {
+	background-color: #ffa;
+}
+
+.width-100 {
+	width: 100px;
+}
+
+.width-150 {
+	width: 150px;
+}
+
+.width-200 {
+	width: 200px;
+}
+
+.users.form input[type=submit], .users.form a.button {
+	width: 100px;
+	text-align:center;
+	line-height: 24px;
+	height: 34px;
+	margin: 0 20px 20px 20px;
+	-webkit-appearance: button;
+    	cursor: pointer;
+	text-decoration: none;
+	vertical-align: middle;
+	font-size: 14px;
+}
+
+.margin-20 {
+	margin: 20px;
+}
+.padding-20 {
+	padding: 20px;
+}
+.margin-10 {
+	margin: 10px;
+}
+.padding-10 {
+	padding: 10px;
+}
+.margin-top-20 {
+	margin-top: 20px;
+}
+
+.margin-top-40 {
+	margin-top: 40px;
+}
+
+.form-contacts label {
+	float: left;
+}
+.form-contacts .form-control {
+		margin: 5px 0 10px 0;
+}
+@media only screen and (min-width: 600px)  {
+	.form-contacts label {
+		float: none;
+		vertical-align: middle;
+		display: inline-block;
+		width: 20%;
+	}
+	
+	.form-contacts textarea {
+		vertical-align: top;
+	}
+	
+	.form-contacts div.input.textarea label {
+		padding-top: 10px;
+	}
+	
+	.form-contacts .form-control {
+		display: inline-block;
+		width: 80%;
+	}
+	
+}

@@ -1,0 +1,110 @@
+	.products-menu .hideList ol {
+		display: none;
+	}
+	
+	.products-menu li span.adminTool {
+		display: none;
+	}
+	
+	.products-menu li:hover span.adminTool {
+		display: inline-block;
+	}
+
+	.products-menu li:hover ol li span.adminTool {
+		display: none;
+	}
+
+	.products-menu li ol li:hover span.adminTool {
+		display: inline-block;
+	}
+	
+	body.dragging, body.dragging * {
+	  cursor: move !important;
+	}
+
+	.dragged {
+		color: #000;
+		position: absolute;
+		opacity: 0.5;
+		cursor: move !important;
+		z-index: 2;
+	}
+	
+	ol.products-menu, ol.products-menu li ol {
+		list-style-type: none;
+		display:inline-block;
+	}
+
+	ol.products-menu li {
+		padding: 10px 20px;
+		border: 1px solid transparent;
+	}
+	
+	ol.products-menu li:hover {
+		cursor: pointer;
+	}
+	
+	ol.products-menu li.inactive {
+		font-style: italic;
+		opacity: 0.7;
+	}
+
+	ol.products-menu li:focus {
+		cursor: move;
+	}
+		
+	ol.products-menu li:hover {
+		border: 1px dotted #000;
+	}
+	
+	ol.products-menu {
+		padding: 10px;
+		min-width:250px;
+		width: 100%;
+		max-width: 400px;
+		background-color: rgba(0,0,0,0.1);
+		box-shadow: 0 0 20px rgba(0,0,0,0.5);
+		border-radius: 10px;
+	}
+	
+	ol.products-menu li ol li {
+		background: linear-gradient(top, #f0f0e0 0%, #e2e2c2 100%);  
+		background: -moz-linear-gradient(top, #f0f0e0 0%, #e2e2c2 100%); 
+		background: -webkit-linear-gradient(top, #f0f0e0 0%,#e2e2c2 100%); 
+		background:-o-linear-gradient(top, #f0f0e0 0%,#e2e2c2 100%);
+		background:-ms-linear-gradient(top, #f0f0e0 0%,#e2e2c2 100%);
+		border: 1px solid #aaa;	
+	}
+	
+	ol.products-menu > li {
+		background: linear-gradient(top, #fff 0%, #e2e2e2 100%);  
+		background: -moz-linear-gradient(top, #fff 0%, #e2e2e2 100%); 
+		background: -webkit-linear-gradient(top, #fff 0%,#e2e2e2 100%); 
+		background:-o-linear-gradient(top, #fff 0%,#e2e2e2 100%);
+		background:-ms-linear-gradient(top, #fff 0%,#e2e2e2 100%);
+		border: 1px solid #aaa;		
+		min-width: 200px;
+		width: 100%;
+	}
+	
+	ol.products-menu li:first-child  {
+		border-radius: 10px 10px 0 0;
+	}
+	
+		ol.products-menu li:last-child {
+		border-radius: 0 0 10px 10px;
+	}
+		
+	ol.products-menu li ol {
+		background-color: rgba(0,0,0,0.2);
+		border-radius: 10px;
+	}
+
+	ol.products-menu li.placeholder {
+	  position: relative;
+	  /** More li styles **/
+	}
+	ol.products-menu li.placeholder:before {
+	  position: absolute;
+	  /** Define arrowhead **/
+	}
